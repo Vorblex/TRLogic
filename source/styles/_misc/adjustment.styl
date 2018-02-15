@@ -10,7 +10,8 @@ html
 
     +phone()
         font-size 12px
-    
+
+
 body,
 html 
     width 100%
@@ -26,21 +27,23 @@ body
 
 
 .wrapper 
-    display flex
-    flex-direction column
-    min-height 100vh
     position relative
     overflow hidden
+    padding 0 $containerPadding
 
 
 .maincontent 
     position relative
-    flex 1
+    flex 1 1 auto
 
 
 .container 
-    padding 0 $containerPadding
+    position relative
+    display flex
+    flex-direction column
+    min-height 100vh
     max-width $containerMaxWidth
+    overflow hidden
     margin auto
 
 
