@@ -1,0 +1,44 @@
+centered($axis = both) 
+    if $axis == both 
+        top 50%
+        left 50%
+        transform translate(-50%, -50%)
+
+    if $axis == x 
+        left 50%
+        transform translateX(-50%)
+
+    if $axis == y 
+        top 50%
+        transform translateY(-50%)
+
+
+inlineblock($valign = top)
+    display inline-block
+    vertical-align $valign
+
+
+hd() 
+    @media screen and (max-width: 1200px)
+        {block}
+
+
+laptop() 
+    @media screen and (max-width: 992px) 
+        {block}
+    
+
+tablet() 
+    @media screen and (max-width: 768px) 
+        {block}
+    
+    
+phone() 
+    @media screen and (max-width: 480px) 
+        {block}
+
+
+ie() 
+    @media (min-width 0\0) 
+        {block}
+      

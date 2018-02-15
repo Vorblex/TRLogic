@@ -1,0 +1,76 @@
+html
+    +hd()
+        font-size 16px
+
+    +laptop() 
+        font-size 15px
+
+    +tablet() 
+        font-size 14px
+
+    +phone()
+        font-size 12px
+    
+body,
+html 
+    width 100%
+    min-height 100%
+
+
+body 
+    position relative
+    margin 0
+    background #fff
+    line-height 1.6
+    -webkit-font-smoothing antialiased
+
+
+.wrapper 
+    display flex
+    flex-direction column
+    min-height 100vh
+    position relative
+    overflow hidden
+
+
+.maincontent 
+    position relative
+    flex 1
+
+
+.container 
+    padding 0 $containerPadding
+    max-width $containerMaxWidth
+    margin auto
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 
+    margin-top 0
+    margin-bottom 0
+    font-weight normal
+
+
+ul 
+    margin 0
+    padding 0
+
+
+li 
+    list-style none
+
+
+p 
+    margin 0
+
+
+a
+    text-decoration none
+
+
+* 
+    box-sizing border-box
