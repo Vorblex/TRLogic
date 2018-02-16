@@ -1,6 +1,6 @@
 .sidebar
     position absolute
-    top: 40px
+    top: $headerHeight
     bottom 0
     width 300px
     background rgba($green, .87)
@@ -8,13 +8,16 @@
 
 
 .sidebar_left
-    left -100%
+    left 0%
+    transform translateX(-100%)
 
     &.active
-        left 0%
+        transform translateX(0%)
+
 
 .sidebar_right
-    right -100%
+    right 0%
+    transform translateX(100%)
 
     &.active
-        right 0%
+        transform translateX(0%)

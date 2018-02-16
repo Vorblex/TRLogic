@@ -38,6 +38,7 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
+    "jquery": "^3.3.1",
     "normalize.css": "^4.1.1",
     "tapjs": "^1.0.9"
   }

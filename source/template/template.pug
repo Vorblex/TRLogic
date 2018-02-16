@@ -2,19 +2,18 @@ block variables
 include mixins/mixins
 
 doctype html
-html(lang="ru")
+html(lang="zxx")
   include ./common/head
-  body
-    .wrapper
-      .container
-        .maincontent
-          include ./common/header
-          main.main
-            block content 
 
-        include ./common/footer
+  body
+    .maincontent
+      .maincontent__container.container
+        include ./common/header
+        main.main
+          block content 
         aside.sidebar.sidebar_left
         aside.sidebar.sidebar_right
+    include ./common/footer
 
 
     include ./common/scripts
