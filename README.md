@@ -1,4 +1,4 @@
-# Silver-test
+# TR Logic LLC
 
 ## Alexander Vorobey
 > Сборка работает на gulp версии 4.0. 
